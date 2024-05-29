@@ -35,5 +35,5 @@ export const MenuItem = styled.div<{ openMenu: boolean}>`
 `;
 
 export const ButtonIcon = styled.img`
-   width: 25px;
+   width: 20px;
 `;

@@ -23,7 +23,7 @@ function Header() {
    return (
       <Container>
          <LogoContainer>
-            <ButtonContainer onClick={() => setOpenMenu(!openMenu)} margin='0 10px 0 0'>
+            <ButtonContainer onClick={() => setOpenMenu(!openMenu)} margin='0 15px 0 27px'>
                <ButtonIcon alt="" src={HamburguerIcon} />
             </ButtonContainer>
             <img
