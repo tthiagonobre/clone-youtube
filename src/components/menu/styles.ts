@@ -37,3 +37,11 @@ export const MenuItem = styled.div<{ openMenu: boolean}>`
 export const ButtonIcon = styled.img`
    width: 20px;
 `;
+
+export const Separetor = styled.div<{ openMenu: boolean }>`
+   width: ${({ openMenu }) => openMenu? '250px' : 'none'};
+   border-bottom: ${({ openMenu }) => openMenu? '1px solid #e6e6e6' : 'none'};
+   margin-top: 10px;
+`;
+
+
